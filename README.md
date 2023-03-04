@@ -51,3 +51,34 @@ Using Laravel and VueJS, create an application which shows the weather for a set
 - Install javascript dependencies: `npm install`
 - Run frontend: `npm run dev`
 - Visit frontend: `http://localhost:5173`
+
+### Work done
+
+#### Backend
+
+- Created a `WeatherService` that fetches data from external APIs
+  - `.env.example` has API keys and URLS
+- Created a scheduled command to check old weather data and update if necessary
+  - The command is can be run on termial using `php artisan weather:updatedata`
+  - This will dispacth a queued job for each weather data that needs to be updated
+
+#### Docker
+
+- Added container names on the `docker-compose.yml`
+- Added opcache support for increased performance
+- Added a bash script `start-container` to change the ownership to `www:data` to prevent log file permission errors
+- Added a new `supervisor` container to manage queues and scheduled tasks
+  - supervisor configuration is on `supervisor.conf`
+
+#### Frontend
+
+- Landing page displays list of users as cards with pagination
+  - Changing pagination parameters will cancel the current fetch request
+- Clicking on user cards will open a modal to view more weather information
+- Users are managed by `UserStore`
+- Responsive minimalist design
+- Used Vuetify with tree-shaking enabled
+
+#### Testing
+
+- Created several test scripts on `WeatherServiceTest`
