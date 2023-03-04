@@ -1,0 +1,45 @@
+{
+    "data": [
+        {
+            "latitude": 61.316549,
+            "longitude": 68.729597,
+            "type": "county",
+            "distance": 47.323,
+            "name": "Khanty-Mansijskiy",
+            "number": null,
+            "postal_code": null,
+            "street": null,
+            "confidence": 0.5,
+            "region": "Khanty-Mansi",
+            "region_code": "KM",
+            "county": "Khanty-Mansijskiy",
+            "locality": null,
+            "administrative_area": null,
+            "neighbourhood": null,
+            "country": "Russia",
+            "country_code": "RUS",
+            "continent": "Europe",
+            "label": "Khanty-Mansijskiy, KM, Russia",
+            "sun_module": {
+                "rise": {
+                    "time": 1677810046,
+                    "astronomical": 1677801346,
+                    "civil": 1677807443,
+                    "nautical": 1677804436
+                },
+                "set": {
+                    "time": 1677848003,
+                    "astronomical": 1677856703,
+                    "civil": 1677850606,
+                    "nautical": 1677853613
+                },
+                "transit": 1677829024
+            },
+            "timezone_module": {
+                "name": "Asia/Yekaterinburg",
+                "offset_sec": 18000,
+                "offset_string": "+05:00"
+            }
+        }
+    ]
+}

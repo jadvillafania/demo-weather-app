@@ -1,0 +1,332 @@
+{
+    "cod": "200",
+    "message": 0,
+    "cnt": 8,
+    "list": [
+        {
+            "dt": 1677931200,
+            "main": {
+                "temp": 266.44,
+                "feels_like": 259.44,
+                "temp_min": 266.44,
+                "temp_max": 266.44,
+                "pressure": 1013,
+                "sea_level": 1013,
+                "grnd_level": 955,
+                "humidity": 90,
+                "temp_kf": 0
+            },
+            "weather": [
+                {
+                    "id": 600,
+                    "main": "Snow",
+                    "description": "light snow",
+                    "icon": "13n"
+                }
+            ],
+            "clouds": {
+                "all": 100
+            },
+            "wind": {
+                "speed": 6.45,
+                "deg": 256,
+                "gust": 12.93
+            },
+            "visibility": 930,
+            "pop": 1,
+            "snow": {
+                "3h": 0.41
+            },
+            "sys": {
+                "pod": "n"
+            },
+            "dt_txt": "2023-03-04 12:00:00"
+        },
+        {
+            "dt": 1677942000,
+            "main": {
+                "temp": 265.66,
+                "feels_like": 258.66,
+                "temp_min": 264.11,
+                "temp_max": 265.66,
+                "pressure": 1014,
+                "sea_level": 1014,
+                "grnd_level": 957,
+                "humidity": 89,
+                "temp_kf": 1.55
+            },
+            "weather": [
+                {
+                    "id": 600,
+                    "main": "Snow",
+                    "description": "light snow",
+                    "icon": "13n"
+                }
+            ],
+            "clouds": {
+                "all": 100
+            },
+            "wind": {
+                "speed": 6.59,
+                "deg": 253,
+                "gust": 12.8
+            },
+            "visibility": 3301,
+            "pop": 0.47,
+            "snow": {
+                "3h": 0.24
+            },
+            "sys": {
+                "pod": "n"
+            },
+            "dt_txt": "2023-03-04 15:00:00"
+        },
+        {
+            "dt": 1677952800,
+            "main": {
+                "temp": 263.75,
+                "feels_like": 256.75,
+                "temp_min": 262.4,
+                "temp_max": 263.75,
+                "pressure": 1016,
+                "sea_level": 1016,
+                "grnd_level": 957,
+                "humidity": 89,
+                "temp_kf": 1.35
+            },
+            "weather": [
+                {
+                    "id": 600,
+                    "main": "Snow",
+                    "description": "light snow",
+                    "icon": "13n"
+                }
+            ],
+            "clouds": {
+                "all": 100
+            },
+            "wind": {
+                "speed": 5.82,
+                "deg": 253,
+                "gust": 12.07
+            },
+            "visibility": 3600,
+            "pop": 0.23,
+            "snow": {
+                "3h": 0.12
+            },
+            "sys": {
+                "pod": "n"
+            },
+            "dt_txt": "2023-03-04 18:00:00"
+        },
+        {
+            "dt": 1677963600,
+            "main": {
+                "temp": 261.59,
+                "feels_like": 254.59,
+                "temp_min": 261.59,
+                "temp_max": 261.59,
+                "pressure": 1018,
+                "sea_level": 1018,
+                "grnd_level": 959,
+                "humidity": 92,
+                "temp_kf": 0
+            },
+            "weather": [
+                {
+                    "id": 600,
+                    "main": "Snow",
+                    "description": "light snow",
+                    "icon": "13n"
+                }
+            ],
+            "clouds": {
+                "all": 100
+            },
+            "wind": {
+                "speed": 5.5,
+                "deg": 253,
+                "gust": 11.26
+            },
+            "visibility": 659,
+            "pop": 0.29,
+            "snow": {
+                "3h": 0.16
+            },
+            "sys": {
+                "pod": "n"
+            },
+            "dt_txt": "2023-03-04 21:00:00"
+        },
+        {
+            "dt": 1677974400,
+            "main": {
+                "temp": 260.86,
+                "feels_like": 253.86,
+                "temp_min": 260.86,
+                "temp_max": 260.86,
+                "pressure": 1020,
+                "sea_level": 1020,
+                "grnd_level": 960,
+                "humidity": 93,
+                "temp_kf": 0
+            },
+            "weather": [
+                {
+                    "id": 600,
+                    "main": "Snow",
+                    "description": "light snow",
+                    "icon": "13d"
+                }
+            ],
+            "clouds": {
+                "all": 100
+            },
+            "wind": {
+                "speed": 5.56,
+                "deg": 259,
+                "gust": 10.85
+            },
+            "visibility": 472,
+            "pop": 0.24,
+            "snow": {
+                "3h": 0.3
+            },
+            "sys": {
+                "pod": "d"
+            },
+            "dt_txt": "2023-03-05 00:00:00"
+        },
+        {
+            "dt": 1677985200,
+            "main": {
+                "temp": 261.48,
+                "feels_like": 254.48,
+                "temp_min": 261.48,
+                "temp_max": 261.48,
+                "pressure": 1021,
+                "sea_level": 1021,
+                "grnd_level": 962,
+                "humidity": 90,
+                "temp_kf": 0
+            },
+            "weather": [
+                {
+                    "id": 600,
+                    "main": "Snow",
+                    "description": "light snow",
+                    "icon": "13d"
+                }
+            ],
+            "clouds": {
+                "all": 100
+            },
+            "wind": {
+                "speed": 5.73,
+                "deg": 262,
+                "gust": 10.01
+            },
+            "visibility": 939,
+            "pop": 0.26,
+            "snow": {
+                "3h": 0.27
+            },
+            "sys": {
+                "pod": "d"
+            },
+            "dt_txt": "2023-03-05 03:00:00"
+        },
+        {
+            "dt": 1677996000,
+            "main": {
+                "temp": 262.52,
+                "feels_like": 255.52,
+                "temp_min": 262.52,
+                "temp_max": 262.52,
+                "pressure": 1022,
+                "sea_level": 1022,
+                "grnd_level": 962,
+                "humidity": 84,
+                "temp_kf": 0
+            },
+            "weather": [
+                {
+                    "id": 600,
+                    "main": "Snow",
+                    "description": "light snow",
+                    "icon": "13d"
+                }
+            ],
+            "clouds": {
+                "all": 100
+            },
+            "wind": {
+                "speed": 5.64,
+                "deg": 267,
+                "gust": 9.36
+            },
+            "visibility": 2974,
+            "pop": 0.33,
+            "snow": {
+                "3h": 0.31
+            },
+            "sys": {
+                "pod": "d"
+            },
+            "dt_txt": "2023-03-05 06:00:00"
+        },
+        {
+            "dt": 1678006800,
+            "main": {
+                "temp": 261.71,
+                "feels_like": 254.71,
+                "temp_min": 261.71,
+                "temp_max": 261.71,
+                "pressure": 1022,
+                "sea_level": 1022,
+                "grnd_level": 963,
+                "humidity": 84,
+                "temp_kf": 0
+            },
+            "weather": [
+                {
+                    "id": 600,
+                    "main": "Snow",
+                    "description": "light snow",
+                    "icon": "13d"
+                }
+            ],
+            "clouds": {
+                "all": 100
+            },
+            "wind": {
+                "speed": 4.94,
+                "deg": 267,
+                "gust": 9.54
+            },
+            "visibility": 7586,
+            "pop": 0.42,
+            "snow": {
+                "3h": 0.25
+            },
+            "sys": {
+                "pod": "d"
+            },
+            "dt_txt": "2023-03-05 09:00:00"
+        }
+    ],
+    "city": {
+        "id": 2013952,
+        "name": "Ust'-Ilimsk",
+        "coord": {
+            "lat": 58.1794,
+            "lon": 103.2942
+        },
+        "country": "RU",
+        "population": 100271,
+        "timezone": 28800,
+        "sunrise": 1677887751,
+        "sunset": 1677926513
+    }
+}

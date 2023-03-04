@@ -4,12 +4,18 @@ RUN apt-get update
 
 RUN apt-get install -y \
     pkg-config  \
-    libzip-dev
+    libzip-dev 
 
 RUN docker-php-ext-install \
     mysqli \
     pdo_mysql \
-    zip
+    zip \
+    opcache
+
+# 0 for production
+# 1 for development
+ENV PHP_OPCACHE_VALIDATE_TIMESTAMPS="0"
+ADD opcache.ini "$PHP_INI_DIR/conf.d/opcache.ini"
 
 ENV APACHE_DOCUMENT_ROOT /var/www/html/public
 
@@ -20,3 +26,7 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 
 RUN a2enmod rewrite
 RUN service apache2 restart
+
+COPY start-container /usr/local/bin/start-container
+RUN chmod +x /usr/local/bin/start-container
+RUN /usr/local/bin/start-container

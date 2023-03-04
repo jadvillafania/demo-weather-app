@@ -212,4 +212,14 @@ return [
         // 'ExampleClass' => App\Example\ExampleClass::class,
     ])->toArray(),
 
+    /**
+     * weather api key
+     */
+
+    'weather_api_url' => env('WEATHER_API_URL', 'https://api.openweathermap.org/data/2.5/weather/'),
+    'forecast_api_url' => env('FORECAST_API_URL', 'https://api.openweathermap.org/data/2.5/forecast'),
+    'weather_api_key' => env('WEATHER_API_KEY', '89f4d09eb432c1dee70168b061880c5f'),
+    'weather_api_units' => env('WEATHER_API_UNITS', 'metric'),
+    'location_api_url' => env('LOCATION_API_UNITS', 'http://api.positionstack.com/v1/reverse'),
+    'location_api_key' => env('LOCATION_API_KEY', '8a605ce08c02a609f249c6a0f957ca78'),
 ];

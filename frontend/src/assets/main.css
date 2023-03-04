@@ -1,0 +1,18 @@
+html, body {
+    background-color: #e0e0e0 !important;
+}
+
+.image-drop-shadow img {
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.2));
+}
+
+.app-main-button {
+    color: #212121 !important;
+}
+.app-main-button:hover {
+    color: #757575 !important;
+}
+
+.filter-grayscale {
+    filter: grayscale(1);
+}
