@@ -1,0 +1,60 @@
+name: weather
+services:
+    app:
+        build:
+            context: ./
+            dockerfile: ./docker/Dockerfile.prod
+        ports:
+            - "80:80"
+#        volumes:
+#            - .:/var/www/html
+        networks:
+            shared_network:
+                aliases:
+                    - app1
+
+    mysql:
+        image: mysql:8
+        ports:
+            - "3306:3306"
+        volumes:
+            - mysql_data:/var/lib/mysql
+            - ./docker:/docker-entrypoint-initdb.d
+        environment:
+            MYSQL_ROOT_PASSWORD: root
+        networks:
+            shared_network:
+                aliases:
+                    - app1
+
+    # weather_redis:
+    #     image: redis:7
+    #     container_name: weather_redis
+    #     ports:
+    #         - "6379:6379"
+    #     volumes:
+    #         - redis_data:/data
+    #     networks:
+    #         shared_network:
+    #             aliases:
+    #                 - app1
+
+    # weather_supervisor:
+    #     build: 
+    #         context: ./docker
+    #         dockerfile: supervisor.dockerfile
+    #     container_name: weather_supervisor
+    #     volumes:
+    #         - .:/var/www/html
+    #     networks:
+    #         shared_network:
+    #             aliases:
+    #                 - app1
+            
+volumes:
+    mysql_data:
+    # redis_data:
+
+networks:
+    shared_network:
+        external: true
